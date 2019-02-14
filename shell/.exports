@@ -1,0 +1,19 @@
+#-- Path -----------------------------------------------------------------------
+
+export PATH=$HOME/bin:$PATH
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+export PATH=$PATH:$HOME/Library/Android/sdk/emulator
+export PATH=$PATH:$HOME/flutter/bin
+
+#-- Miscellaneous --------------------------------------------------------------
+
+export EDITOR=nvim
+export VISUAL=nvim
+
+#-- Load private exports -------------------------------------------------------
+
+if [ -e $HOME/.exports-private ]; then
+  source $HOME/.exports-private
+fi

@@ -1,0 +1,49 @@
+#-- Dotfiles -------------------------------------------------------------------
+
+alias dotfiles='/usr/bin/env git --git-dir=$HOME/.dotfiles.git --work-tree=$HOME'
+
+#-- General Aliases ------------------------------------------------------------
+
+alias l='ls -AhlF'
+alias lh='ls -dhlF .*'
+alias lv='ls -ahlF'
+
+#-- Git ------------------------------------------------------------------------
+
+# status
+alias g='git status --short'
+alias gv='git status'
+# log
+alias gl='git log --graph --pretty=format:"%C(yellow)%h%Creset committed %C(green)%ar%Creset by %C(blue)%an%Creset%n  %s"'
+alias glv='git log --graph --decorate=short'
+# diff
+alias gd='git diff --color'
+# stage
+alias ga='git add'
+alias gaa='git add --all'
+alias gap='git add --patch'
+# unstage
+alias gr='git reset --quiet HEAD --'
+alias gra='git reset --quiet'
+alias grp='git reset --patch'
+alias grh='git reset --hard'
+# commit
+alias gc='git commit --verbose'
+alias gca='git add --all && git commit --verbose'
+alias gcm='git commit --verbose --message'
+alias gcma='git add --all && git commit --verbose --message'
+# branch
+alias gb='git branch'
+alias gbd='git branch --delete --quiet'
+alias gbr='git branch --remote'
+alias gbv='git branch --all'
+alias gco='git checkout'
+alias gcob='git checkout -b'
+alias gm='git merge'
+# stash
+alias gs='git stash'
+alias gsa='git stash apply'
+alias gsl='git stash list'
+# remote
+alias gp='git push'
+alias gpl='git pull'
