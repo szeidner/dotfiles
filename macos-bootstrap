@@ -520,6 +520,16 @@ else
     fi
 fi
 
+# add zsh to /etc/shells
+_bootstrap_print "Adding zsh to /etc/shells... "
+grep -qx "$(which zsh)" /etc/shells || sudo sh -c "echo $(which zsh) >> /etc/shells"
+_bootstrap_print_status
+# change login shell
+_bootstrap_println "Setting login shell to zsh... "
+chsh -s $(which zsh)
+_bootstrap_print_status
+
+
 ###
 ## Step 4: Finish
 ###
