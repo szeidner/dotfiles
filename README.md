@@ -17,7 +17,7 @@ which will perform the tasks below.
 - Set the computer name and hostname.
 - Set many basic macOS preferences.
 - Install Homebrew.
-- Install CLI and macOS applications. (See the [Brewfile]() for more details.)
+- Install CLI and macOS applications. (See the [Brewfile](Brewfile) for more details.)
 - Change the login shell to zsh.
 - Restart applications so some changes take effect immediately.
 
