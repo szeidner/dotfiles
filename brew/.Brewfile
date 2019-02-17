@@ -12,8 +12,10 @@ brew "mas", link: true
 brew "neovim"
 brew "ripgrep"
 brew "ruby", link: true
+brew "tree"
 brew "stow"
 brew "tokei"
+brew "zola"
 brew "zsh"
 
 # cask
