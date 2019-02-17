@@ -499,7 +499,7 @@ if ! hash brew 2>/dev/null; then
         read -e -t 30
         if [[ $REPLY == [Yy]* ]] || [[ -z $REPLY ]]; then
             _bootstrap_print "Installing/Updating applications via Homebrew... "
-            brew bundle
+            brew bundle --file=./brew/.Brewfile
             _bootstrap_print_status
         else
             _bootstrap_println "Skipped."
@@ -513,7 +513,7 @@ else
     read -e -n 1 -t 30
     if [[ $REPLY == [Yy]* ]] || [[ -z $REPLY ]]; then
         _bootstrap_print "Installing/Updating applications via Homebrew... "
-        brew bundle
+        brew bundle --file=./brew/.Brewfile
         _bootstrap_print_status
     else
         _bootstrap_println "Skipped."
