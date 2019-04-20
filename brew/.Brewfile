@@ -8,6 +8,7 @@ tap "homebrew/core"
 # brew
 brew "git"
 brew "gnupg"
+brew "jq"
 brew "mas", link: true
 brew "neovim"
 brew "ripgrep"
