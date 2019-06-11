@@ -20,20 +20,22 @@ brew "zola"
 brew "zsh"
 
 # cask
-cask "1password"
 cask "android-studio"
+cask "bartender"
+cask "dropbox"
 cask "firefox"
 cask "font-fira-code"
 cask "google-chrome"
 cask "iterm2"
+cask "lastpass"
+cask "paw"
 cask "postman"
 cask "slack"
-cask "spectacle"
-cask "spotify"
 cask "sublime-text"
 cask "visual-studio-code"
 cask "webstorm"
 
 # mac app store
 mas "Bear", id: 1091189122
+mas "Evernote", id: 406056744
 mas "Xcode", id: 497799835
