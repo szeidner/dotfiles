@@ -33,7 +33,10 @@ cask "intellij-idea-ce"
 cask "iterm2"
 cask "lastpass"
 cask "paw"
+cask "plex-media-player"
 cask "postman"
+cask "psequel"
+cask "sequel-pro"
 cask "sketch"
 cask "slack"
 cask "sublime-text"
@@ -42,4 +45,5 @@ cask "visual-studio-code"
 # mac app store
 mas "Bear", id: 1091189122
 mas "Evernote", id: 406056744
+mas "Soulver", id: 413965349
 mas "Xcode", id: 497799835
