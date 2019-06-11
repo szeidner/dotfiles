@@ -29,6 +29,7 @@ cask "firefox"
 cask "font-fira-code"
 cask "fork"
 cask "google-chrome"
+cask "intellij-idea-ce"
 cask "iterm2"
 cask "lastpass"
 cask "paw"
@@ -37,7 +38,6 @@ cask "sketch"
 cask "slack"
 cask "sublime-text"
 cask "visual-studio-code"
-cask "webstorm"
 
 # mac app store
 mas "Bear", id: 1091189122
